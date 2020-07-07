@@ -1,0 +1,152 @@
+body{
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background: url('login.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-color: white;
+    font-family: sans-serif;
+
+}
+
+.both{
+    display: flex;
+}
+
+fieldset{
+    border:2px solid white;
+}
+
+.login{
+    margin-left: auto;
+    margin-right:auto;
+    padding: 20px;
+}
+
+
+legend{
+    font-size: 20px;
+}
+
+.login fieldset{
+    border:2px solid  white;
+    border-radius: 5px;
+
+}
+
+.login  label{
+    cursor: pointer;
+}
+
+
+.login input{
+    background: transparent;
+    width: auto;
+    opacity: 0.7;
+    padding: 5px;
+    cursor: text;
+    border: 2px solid white;
+    border-radius: 5px;
+    color: white;
+}
+
+
+.login legend{
+    text-align: center;
+
+}
+
+.login .login_btn{
+    cursor: pointer;
+    font-size: 15px;
+    color: black;
+    font-weight: bold;
+    padding: 3px;
+    border : 3px solid white;
+    border-radius: 5px;
+}
+
+
+.login .login_btn:hover {
+  background-color: black;
+  color: white;
+}
+
+
+.login .forget_password{
+    text-align: center;
+    margin-left: 50px;
+}
+
+
+
+.signup{
+    padding: 20px;
+
+}
+
+
+
+.signup fieldset{
+    border:2px solid  white;
+    border-radius: 5px;
+
+}
+
+.signup  label{
+    padding: 5px;
+    cursor: pointer;
+}
+
+
+.signup input{
+    background: transparent;
+    width: auto;
+    opacity: 0.7;
+    padding: 5px;
+    cursor: text;
+    border: 2px solid white;
+    border-radius: 5px;
+    color: white;
+}
+
+
+.signup legend{
+    text-align: center;
+    font-size: 20px;
+}
+
+.signup .dob{
+    padding: 5px;
+    cursor: pointer;
+}
+
+.signup .signup_btn{
+    cursor: pointer;
+    font-size: 15px;
+    color: black;
+    font-weight: bold;
+    padding: 3px;
+    border : 3px solid white;
+    border-radius: 5px;
+}
+
+
+.signup .signup_btn:hover {
+  background-color: black;
+  color: white;
+}
+
+
+#to_signup,#to_login {
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+    color: white;
+}
